@@ -1,6 +1,10 @@
 # Bookmarklet Concept
 Proof of concept of a bookmarklet script that interacts with Google Docs to store data.
 
+# Specifications
+This proof of concept implements a simple form that contains a text field, a dropdown field, and a Submit button.
+Clicking on the submit button saves the inputted data, as well as the page URL, to a Google Spreadsheet.
+
 # Resources
 ## Building a Bookmarklet
 
