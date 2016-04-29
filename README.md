@@ -10,5 +10,5 @@ Proof of concept of a bookmarklet script that interacts with Google Docs to stor
 
 ## Connecting to Google Spreadsheets
 - [Bookmarklet to save URL in Google Spreadsheet](http://stackoverflow.com/questions/15592094/bookmarklet-to-save-url-in-google-spreadsheet) (stackoverflow.com)
-- [Google Apps Scripts - Spreadsheet Service](https://developers.google.com/apps-script/reference/spreadsheet/) (developers.google.com)
+- [Google Apps Script - Spreadsheet Service](https://developers.google.com/apps-script/reference/spreadsheet/) (developers.google.com)
 
