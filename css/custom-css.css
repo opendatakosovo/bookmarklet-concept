@@ -1,0 +1,13 @@
+#google_sheets_bookmarklet_table{
+  border: 3px solid #333;
+  position: fixed;
+	_position:absolute;
+	top: 0; 
+	right: 0; 
+	width: 570px;
+	height: 80px;
+	z-index: 10000000;
+	margin: 0;
+	padding: 0;
+	background: white;
+}
