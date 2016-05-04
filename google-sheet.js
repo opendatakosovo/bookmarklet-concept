@@ -16,7 +16,6 @@ $("#form").submit(function(event){
 
     // Serialize the data in the form
     var serializedData = $form.serialize();
-    console.log("Data:", serializedData);
     
     // Let's disable the inputs for the duration of the Ajax request.
     // Note: we disable elements AFTER the form data has been serialized.
