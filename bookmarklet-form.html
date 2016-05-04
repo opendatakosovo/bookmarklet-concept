@@ -1,28 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+    <title>Bookmarklet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
- <form id='form'>
-      <p>
-        <label>Message</label>
-        <textarea id='message' name='message' rows='5'></textarea>
-      </p><p>
-           <label>Name</label>
-           <select id="category" name='category'>
-             <option value = "1">one</option>
-             <option value = "2">two</option>
-             <option value = "3">three</option>
-             <option value = "4">four</option>
-           </select>
-        </p>
-        <div id='success'></div>
-        <button type='submit'>Send</button>
+<div class="row">
+<div class="col-sm-12">
+    <div class="well">
+    <form role="form" id="form">
+        <div class="form-group">
+            <label for="message" class="h5">Message</label>
+            <textarea id='message' name='message' class="form-control" rows="3" placeholder="Enter your message"></textarea>
+        </div>
+        <div class="row">
+            <div class="form-group col-sm-4">
+                <label for="name" class="h5">Category</label>
+               <select id="category" class="form-control" name='category'>
+                 <option value = "1">one</option>
+                 <option value = "2">two</option>
+                 <option value = "3">three</option>
+                 <option value = "4">four</option>
+               </select>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-success btn-sm pull-right">Submit</button>
+        <div class="clearfix"></div>
     </form>
-
-  <script src="js/jquery.min.js"></script>
-  <!-- Custom Theme JavaScript -->
-  <script src='js/google-sheet.js'></script>
+    </div>
+</div>
+</div>
 </body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src='js/google-sheet.js'></script>
 </html>
