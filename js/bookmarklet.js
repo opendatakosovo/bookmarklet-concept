@@ -23,7 +23,7 @@ function toggleItem(id){
 
 (function(){
 
-  var iframe_url = "bookmarklet-form.html";
+  var iframe_url = "http://opendatakosovo.github.io/bookmarklet-concept/bookmarklet-form.html";
   addCSS("css/custom-css.css");
  
   var div = document.createElement("div");
