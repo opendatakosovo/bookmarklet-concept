@@ -1,1 +1,6 @@
 .idea
+.jekyll-metadata
+.htaccess
+.DS_Store
+.sass-cache
+_site/

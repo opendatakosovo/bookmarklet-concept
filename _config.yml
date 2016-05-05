@@ -1,0 +1,9 @@
+# My variables
+name: Bookmarklet
+description: Bookmarklet Project
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
