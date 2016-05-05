@@ -6,12 +6,19 @@
     <meta charset="utf-8">
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+          $('#url').val(window.location);
+      });
+    </script>
 </head>
 <body>
 <div class="row">
 <div class="col-sm-12">
     <div class="well">
     <form role="form" id="form">
+        <!-- Form - sent to a Google Sheet -->
         <div class="form-group">
             <label for="message" class="h5">Message</label>
             <textarea id='message' name='message' class="form-control" rows="3" placeholder="Enter your message"></textarea>
@@ -25,8 +32,10 @@
                  <option value = "3">three</option>
                  <option value = "4">four</option>
                </select>
+               <input type="hidden" name="url" id="url">
             </div>
         </div>
+
         <button type="submit" class="btn btn-success btn-sm pull-right">Submit</button>
         <div class="clearfix"></div>
     </form>
@@ -34,6 +43,5 @@
 </div>
 </div>
 </body>
-<script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src='js/google-sheet.js'></script>
 </html>
