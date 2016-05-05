@@ -24,3 +24,7 @@ Proof of concept of a bookmarklet script that interacts with Google Docs to stor
 Page is hosted: http://opendatakosovo.github.io/bookmarklet-concept/.
 
 Powered by Jekyll and hosted in Github pages.
+
+##Bookmarklet on https sites
+- [ bookmarklet on https page ](http://stackoverflow.com/questions/14367711/bookmarklet-on-https-page
+)
