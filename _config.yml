@@ -2,8 +2,11 @@
 name: Bookmarklet
 description: Bookmarklet Project
 
+
 # Sass
 sass:
   style: :compressed
   sass_dir: _sass
 
+url: "http://opendatakosovo.github.io"
+baseurl: /bookmarklet-concept
