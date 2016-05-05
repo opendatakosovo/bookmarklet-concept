@@ -24,7 +24,7 @@ function toggleItem(id){
 (function(){
 
   var iframe_url = "http://opendatakosovo.github.io/bookmarklet-concept/bookmarklet-form.html";
-  addCSS("css/custom-css.css");
+  addCSS("http://opendatakosovo.github.io/bookmarklet-concept/css/custom-css.css");
  
   var div = document.createElement("div");
   div.id = "google_sheets_bookmarklet_id";
